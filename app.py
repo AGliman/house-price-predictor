@@ -71,7 +71,7 @@ contact_form = """
 <form action="https://formsubmit.co/YOUR_EMAIL@EXAMPLE.COM" method="POST">
      <input type="hidden" name="_captcha" value="false">
      <input type="text" name="name" placeholder="Your name" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
-     <input type="email" name="realestate@gmail.com" placeholder="realestate@gmail.com" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+     <input type="email" name="gamboabdulsalam87@gmail.com" placeholder="gamboabdulsalam87@gmail.com" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
      <textarea name="message" placeholder="Your message here" required style="width: 100%; padding: 10px; margin-bottom: 10px; height: 100px;"></textarea>
      <button type="submit" style="background-color: #FF4B4B; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Send Message</button>
 </form>
