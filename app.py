@@ -59,3 +59,23 @@ if st.button("Predict House Price"):
     # Display the result beautifully on the screen!
     st.success(f"### Estimated Price: ${prediction:,.2f}")
     st.balloons() # Adds a fun animation when a prediction is made!
+
+
+
+#Contact Us Section
+st.write("---")
+st.header("📬 Contact Us")
+
+# 1. Put your actual email address in the 'action' link below
+contact_form = """
+<form action="https://formsubmit.co/YOUR_EMAIL@EXAMPLE.COM" method="POST">
+     <input type="hidden" name="_captcha" value="false">
+     <input type="text" name="name" placeholder="Your name" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+     <input type="email" name="realestate@gmail.com" placeholder="realestate@gmail.com" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+     <textarea name="message" placeholder="Your message here" required style="width: 100%; padding: 10px; margin-bottom: 10px; height: 100px;"></textarea>
+     <button type="submit" style="background-color: #FF4B4B; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Send Message</button>
+</form>
+"""
+
+# 2. Render the HTML form in Streamlit
+st.markdown(contact_form, unsafe_allow_html=True)
