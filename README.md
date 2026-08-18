@@ -44,3 +44,5 @@ Number of Bathrooms
 Air Conditioning
 # 💻 Web Application (Streamlit)
 The final tuned pipeline was saved using joblib and deployed as an interactive web application using Streamlit and FastAPI/Python. Users can adjust sliders for numerical features (like area and bedrooms) and use dropdowns for categorical features (like furnishing status) to get an instant price prediction on a highly intuitive interface.
+Navigate to view the Streamlit app👉 (https://house-price-predictor-e7narbwkhrtjb3lf2w6bed.streamlit.app/#real-estate-price-predictor)
+
